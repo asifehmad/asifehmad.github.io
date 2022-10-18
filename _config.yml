@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Asif Ahmad"
   avatar           : "mine.png"
-  bio              : "Lecturer in Applied Mathematics<br>Focusing on mathematical machine learning"
+  bio              : "Mathematics Lecturer" #"Mathematics Lecturer<br>Focusing on mathematical machine learning"
   location         : #"KPK, PK"
   employer         : "GIK Institute, PK"
   pubmed           :  # example: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
