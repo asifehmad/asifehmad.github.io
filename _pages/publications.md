@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Publications
-*Muniba Ashfaq, Asif Ahmad (2023):
+* Muniba Ashfaq, Asif Ahmad (2023):
 **Skin cancer classification with convolutional deep neural networks and vision transformers using transfer learning**, Advances in Deep Generative Models for Medical Artificial Intelligence, Springer Nature Switzerland, full-text available [here](https://link.springer.com/chapter/10.1007/978-3-031-46341-9_6).
 
 * Noor Badshah, Asif Ahmad (2022):
