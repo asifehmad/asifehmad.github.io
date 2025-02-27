@@ -84,7 +84,7 @@ author:
   avatar           : "mine.png"
   bio              : "Co-Founder at NI & Mathematics Lecturer" #"Mathematics Lecturer<br>Focusing on mathematical machine learning"
   location         : #"KPK, PK"
-  employer         : "[GIK Institute, PK](https://giki.edu.pk/)"
+  employer         : "GIK Institute, PK"
   pubmed           :  # example: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=GNvZ3ZEAAAAJ&hl=en"
   email            : "asif.ahmad@giki.edu.pk"
