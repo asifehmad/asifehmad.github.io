@@ -10,7 +10,7 @@ locale                   : "PK"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Asif Ahmad"
-description              : &description "Mathematics Lecturer"
+description              : &description "Co-Founder at NI & Mathematics Lecturer"
 url                      : https://asifehmad.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "asifehmad.github.io"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Asif Ahmad"
   avatar           : "mine.png"
-  bio              : "Mathematics Lecturer" #"Mathematics Lecturer<br>Focusing on mathematical machine learning"
+  bio              : "Co-Founder at NI & Mathematics Lecturer" #"Mathematics Lecturer<br>Focusing on mathematical machine learning"
   location         : #"KPK, PK"
-  employer         : "GIK Institute, PK"
+  employer         : "[GIK Institute, PK](https://giki.edu.pk/)"
   pubmed           :  # example: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=GNvZ3ZEAAAAJ&hl=en"
   email            : "asif.ahmad@giki.edu.pk"
@@ -102,14 +102,14 @@ author:
   instagram        : "https://www.instagram.com/asif.ehmed/"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/asifahmadkhan/"
+  linkedin         : "https://www.linkedin.com/in/asifehmed/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/asif_ehmed"
+  twitter          : "https://twitter.com/NeuralAl"
   vine             :
   weibo            :
   xing             :
