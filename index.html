@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Asif Ahmad - Lecturer at GIK Institute, Machine Learning Researcher">
+    <meta name="author" content="Asif Ahmad">
+    <title>Asif Ahmad - Academic & Research Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Asif Ahmad</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <svg class="sun-icon" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 17.5C14.7614 17.5 17 15.2614 17 12.5C17 9.73858 14.7614 7.5 12 7.5C9.23858 7.5 7 9.73858 7 12.5C7 15.2614 9.23858 17.5 12 17.5Z"/>
+                    <path d="M12 1.5V4.5M12 20.5V23.5M4.22 4.72L6.34 6.84M17.66 17.16L19.78 19.28M1 12.5H4M20 12.5H23M4.22 20.28L6.34 18.16M17.66 7.84L19.78 5.72"/>
+                </svg>
+                <svg class="moon-icon" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Asif Ahmad</h1>
+                <p class="hero-subtitle">Lecturer at GIK Institute of Engineering Sciences & Technology, Topi, Pakistan.</p>
+                <p class="hero-description">
+                    I am passionate about using Machine Learning to solve real-world problems. I am always looking for new challenges and opportunities to learn and grow.
+                </p>
+                <div class="hero-links">
+                    <a href="https://scholar.google.com/citations?user=GNvZ3ZEAAAAJ&hl=en" target="_blank" rel="noopener" class="btn btn-primary" title="Google Scholar">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/>
+                        </svg>
+                        Google Scholar
+                    </a>
+                    <a href="https://github.com/asifehmad" target="_blank" rel="noopener" class="btn btn-secondary" title="GitHub">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/asifehmed/" target="_blank" rel="noopener" class="btn btn-secondary" title="LinkedIn">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://x.com/NeuralAl" target="_blank" rel="noopener" class="btn btn-secondary" title="Twitter">
+                        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                        Twitter
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-single">
+                <div class="education-card">
+                    <h3>Master of Science in Applied Mathematics</h3>
+                    <p class="institution">University of Engineering & Technology Peshawar, Pakistan</p>
+                    <p class="description"><strong>Thesis:</strong> Neural Network for Segmentation of Medical Images</p>
+                    <p class="description"><strong>Supervisor:</strong> Dr. Noor Badshah, Ph.D (University of Liverpool, UK)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Lecturer</h3>
+                        <span class="date">Feb. 2022 - Present</span>
+                    </div>
+                    <p class="institution">GIK Institute, Pakistan</p>
+                    <div class="card-content">
+                        <p><strong>Teaching Undergraduate Courses:</strong></p>
+                        <ul>
+                            <li>Machine Learning (ES 442) - Fall 2025</li>
+                            <li>Calculus I (MT 101) - Fall 2023, 2024, 2025</li>
+                            <li>Advanced Linear Algebra (ES 205) - Spring 2025</li>
+                            <li>Complex Variables & Transforms (MT 203) - Fall 2024</li>
+                            <li>Probability & Statistics (ES 111) - Spring 2024</li>
+                            <li>Differential Equations & Linear Algebra-I (MT 102/202) - Spring 2023, Fall 2022</li>
+                            <li>Engineering Statistics (ES 202) - Spring 2022</li>
+                        </ul>
+                        <p class="additional-role">Co-ordinator of the Learning Management System (LMS) of the Faculty of Engineering Science, GIK Institute.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Co-founder and ML Team Lead</h3>
+                        <span class="date">Sep. 2022 - May 2025</span>
+                    </div>
+                    <p class="institution">Neural Internet, USA</p>
+                    <div class="card-content">
+                        <ul>
+                            <li>Led a Machine Learning team focused on developing decentralized applications leveraging various subnets within the Bittensor network</li>
+                            <li>Provided technical guidance and collaborated with the development team on the Compute Subnet (SN-27)</li>
+                            <li>Contributed to the maintenance and operational stability of network validators on the Bittensor network</li>
+                            <li>Collaborated with the Bittensor community to advance decentralized AI capabilities</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Mathematics Lecturer</h3>
+                        <span class="date">Mar. 2020 - Jan. 2022</span>
+                    </div>
+                    <p class="institution">CECOS University, Pakistan</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Mathematics Lecturer (Visiting)</h3>
+                        <span class="date">Oct. 2019 - Mar. 2020</span>
+                    </div>
+                    <p class="institution">CECOS University, Pakistan</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Research Assistant</h3>
+                        <span class="date">Feb. 2019 - Feb. 2020</span>
+                    </div>
+                    <p class="institution">UET Peshawar, Pakistan</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Mathematics Lecturer</h3>
+                        <span class="date">Aug. 2017 - Aug. 2018</span>
+                    </div>
+                    <p class="institution">Govt. Degree College Chitral, Pakistan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section">
+        <div class="container">
+            <h2 class="section-title">Research Experience</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <h3>Neural Network for Segmentation of Medical Images</h3>
+                    <span class="badge">Masters' Thesis Work</span>
+                    <p>Developed and trained a deep neural network for the segmentation of medical images during masters' degree research. Also collaborated with other graduate students to explore Active Contour Models integration in neural networks and their application in medical images processing.</p>
+                </div>
+
+                <div class="research-card">
+                    <h3>Skin Cancer Detection with Deep Neural Networks and Vision Transformers</h3>
+                    <p>Used transfer learning for finetuning different convolutional deep neural networks and vision transformers for classification of cancerous skin images.</p>
+                </div>
+
+                <div class="research-card">
+                    <h3>Solving PDEs Using Physics Informed Neural Networks (PINNs)</h3>
+                    <p>Worked on developing and training a physics-informed neural network for solving PDEs with a graduate student at GIK Institute as his co-supervisor. Enhanced PINN Performance Through Lie Symmetry Group, and solved Newell-Whitehead-Segel, Allen-Cahn, and Burgers' Equations.</p>
+                </div>
+
+                <div class="research-card">
+                    <h3>Careem Captain Fraud Detection</h3>
+                    <span class="badge">CO-PI</span>
+                    <p>Explored different data processing techniques and machine learning algorithms to automate Careem's Captain (driver) fraud detection. Careem is a well-known ride-hailing services provider company in the Middle East region.</p>
+                </div>
+
+                <div class="research-card">
+                    <h3>Neural Network for Detection of Hidden Explosives and Narcotics</h3>
+                    <p>Developed a deep neural network-based approach for the rapid detection of hidden explosives and narcotics using Multipulse Nuclear Quadrupole Resonance (NQR).</p>
+                </div>
+
+                <div class="research-card">
+                    <h3>AI-based Service Request Analysis and Rate Limiting</h3>
+                    <span class="badge">PI</span>
+                    <p>Leading this project from the National Database and Registration Authority (NADRA) to automate anomaly detection followed by rate limiting of requests for different services in NADRA.</p>
+                </div>
+
+                <div class="research-card">
+                    <h3>Mathematics for Machine Learning</h3>
+                    <span class="badge">Work in Progress</span>
+                    <p>Compiling a book on Mathematics for Machine Learning, covering fundamental concepts in Probability, Statistics, Calculus, and Linear Algebra, accompanied by hands-on practice examples implemented in Python.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            
+            <div class="publications-container">
+                <div class="publication-category">
+                    <h3 class="category-title">Book Chapters</h3>
+                    <div class="publication-item">
+                        <p class="publication-text">
+                            Muniba Ashfaq, <strong>Asif Ahmad</strong>, <em>Skin cancer classification with convolutional deep neural networks and vision transformers using transfer learning</em>, Springer Nature, 2024.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="publication-category">
+                    <h3 class="category-title">Journal Articles</h3>
+                    <div class="publication-item">
+                        <p class="publication-text">
+                            Noor Badshah, <strong>Asif Ahmad</strong>, <em>ResBCU-Net: Deep learning approach for segmentation of skin images</em>, Biomedical Signal Processing and Control, Elsevier, 2022.
+                        </p>
+                    </div>
+                    <div class="publication-item">
+                        <p class="publication-text">
+                            <strong>Asif Ahmad</strong>, Noor Badshah, Mahmood Hassan, Kamboh Well, <em>A Modified Memory-Efficient U-Net for Segmentation of Polyps</em>, International Journal of Engineering Works, 2021.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="publication-category">
+                    <h3 class="category-title">Conference Papers</h3>
+                    <div class="publication-item">
+                        <p class="publication-text">
+                            Mehreen Fida, Noor Badshah, <strong>Asif Ahmad</strong>, Abdul Hafeez, Arif Ullah, Yalin Zheng, <em>Neural Network Integrated with Active Contour Model for Segmentation of Medical Images</em>, Ahi Evran International Conference on Scientific Research, 30 November - 1-2 December, 2021.
+                        </p>
+                    </div>
+                    <div class="publication-item">
+                        <p class="publication-text">
+                            Arif Ullh, Noor Badshah, <strong>Asif Ahmad</strong>, Abdul Hafeez, Mehreen Fida, <em>Deep Learning Approach for Segmentation of Medical Images</em>, Ahi Evran International Conference on Scientific Research, 30 November - 1-2 December, 2021.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="publication-category">
+                    <h3 class="category-title">Preprints</h3>
+                    <div class="publication-item">
+                        <p class="publication-text">
+                            <strong>Asif Ahmad</strong>, Naveed R Butt, Babar Zaman, <em>Deep Neural Network Based Accurate and Fast Detection of Hidden Explosives and Narcotics Using Multi-Pulse Nuclear Quadrupole Resonance</em>, Available at SSRN 4948911.
+                        </p>
+                    </div>
+                    <div class="publication-item">
+                        <p class="publication-text">
+                            Ali Haider Shah, Naveed Razzaq Butt, <strong>Asif Ahmad</strong>, Muhammad Omar bin Saeed, <em>Enhancing PINN Performance Through Lie Symmetry Group</em>, arXiv.org e-Print archive, 2025.
+                        </p>
+                    </div>
+                    <div class="publication-item">
+                        <p class="publication-text">
+                            Ali Haider Shah, Naveed Razzaq Butt, <strong>Asif Ahmad</strong>, Muhammad Omar bin Saeed, <em>Solving Newell-Whitehead-Segel and Allen-Cahn Equations Employing Physics-Informed Neural Networks: A Comparative Analysis with Spline Methods</em>, arXiv.org e-Print archive, 2025.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Info Section -->
+    <section id="additional" class="section">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <h2 class="section-title">Supervision</h2>
+                    <p>Co-supervised MS thesis titled <em>Solving PDEs Using Improved Physics-Informed Neural Networks (PINNs) and Lie Symmetry</em> of Ali Haider (Reg. # ES-2264), at GIK Institute of Engineering Sciences & Technology Topi, Pakistan.</p>
+                </div>
+
+                <div class="info-card">
+                    <h2 class="section-title">Conferences & Workshops</h2>
+                    <ul class="conference-list">
+                        <li>
+                            <strong>5-Day Training Workshop on Teaching Statistics & ML using Python</strong>
+                            <span class="badge">Instructor</span>
+                            <span class="date">Jan. 2023</span>
+                        </li>
+                        <li>
+                            <strong>1st Intl. Conference on Science, Engineering & Technology (ICSET-21)</strong>
+                            <span class="badge">Presenter</span>
+                            <span class="date">Mar. 2021</span>
+                        </li>
+                        <li>
+                            <strong>National Conf. on Mathematical Sciences in Engrg. Applications (NCMSEA)</strong>
+                            <span class="badge">Organizer</span>
+                            <span class="date">Apr. 2018</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h2 class="section-title">Honours & Awards</h2>
+                    <p>MS Studentship at National Center of Big Data & Cloud Computing (NCBC), UET, 2019.</p>
+                </div>
+
+                <div class="info-card">
+                    <h2 class="section-title">Computer Skills</h2>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <strong>Programming:</strong>
+                            <span>Python, MATLAB</span>
+                        </div>
+                        <div class="skill-category">
+                            <strong>Paper Writing:</strong>
+                            <span>LaTeX, MS Word</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="section">
+        <div class="container">
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <div class="cv-container">
+                <div class="cv-header">
+                    <p>View or download my complete CV</p>
+                    <div class="cv-actions">
+                        <button id="toggleCvPreview" class="btn btn-secondary">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                            </svg>
+                            Preview CV
+                        </button>
+                        <a href="my_cv.pdf" download class="btn btn-download">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                            </svg>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="cv-viewer" id="cvViewer" style="display: none;">
+                    <iframe src="my_cv.pdf" title="Curriculum Vitae"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-card-centered">
+                    <h3>Get in Touch</h3>
+                    <p class="contact-description">Feel free to reach out via email</p>
+                    <ul class="contact-list">
+                        <li>
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                            <a href="mailto:asifahmedmaths@gmail.com">asifahmedmaths@gmail.com</a>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                            <a href="mailto:asif.ahmad@giki.edu.pk">asif.ahmad@giki.edu.pk</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Asif Ahmad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
