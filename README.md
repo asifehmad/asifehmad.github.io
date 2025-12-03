@@ -1,7 +1,5 @@
 # Asif Ahmad - Personal Webpage
 
-## Accessing Your Website
-
 The website is available at:
 - https://asifahmad.net
 
