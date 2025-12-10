@@ -30,9 +30,15 @@ Temporary Items
 *.synctex.gz
 *.fdb_latexmk
 *.fls
+*.tex
 
-# Allow the CV PDF
-!my_cv.pdf
+# Images - ignore backups
+my_image2.jpeg
+my_image3.jpeg
+
+# Allow the main CV PDF and image
+!asif_cv.pdf
+!my_image.jpeg
 
 # Editor
 .vscode/
