@@ -99,6 +99,48 @@ p {
     text-wrap: pretty;
 }
 
+.hero-description,
+.section-note,
+.research-card p:not(.tag),
+.news-item p,
+.timeline-body > p:not(.org),
+.bullets li,
+.info-card > p,
+.contact-block p,
+.cv-bar p,
+.meta-list dd,
+.event-name,
+.pub-authors,
+.pub-title,
+.pub-venue {
+    text-align: justify;
+    text-align-last: start;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+}
+
+@media (max-width: 640px) {
+    .hero-description,
+    .section-note,
+    .research-card p:not(.tag),
+    .news-item p,
+    .timeline-body > p:not(.org),
+    .bullets li,
+    .info-card > p,
+    .contact-block p,
+    .cv-bar p,
+    .meta-list dd,
+    .event-name,
+    .pub-authors,
+    .pub-title,
+    .pub-venue {
+        text-align: start;
+        hyphens: none;
+        -webkit-hyphens: none;
+    }
+}
+
 a {
     color: var(--accent);
     text-decoration: none;
